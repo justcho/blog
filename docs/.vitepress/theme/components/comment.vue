@@ -30,10 +30,10 @@ const { title } = useData();
 
 // params generate in https://giscus.app/zh-CN
 const giscusConfig = reactive({
-	repo: "",
-	repoId: "",
-	category: "",
-	categoryId: "",
+	repo: "justcho/blog",
+	repoId: "R_kgDOJ5hV5g",
+	category: "Q&A",
+	categoryId: "DIC_kwDOJ5hV5s4CXxex",
 	mapping: "title",
 	strict: "0",
 	reactionsEnabled: "1",

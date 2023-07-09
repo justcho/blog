@@ -12,11 +12,11 @@ module.exports = {
     ["link", { rel: "ico", href: "/favicon.ico" }],
   ],
   lastUpdated: true,
+  lang: "zh-CH", //语言
 
   // 主题配置
   themeConfig: {
     smoothScroll: true, // 启动页面丝滑滚动
-    lang: "zh-CH", //语言
     outline: [2, 4], // 识别<h2>-<h4>的标题
     outlineTitle: "本页目录", // aside第一行显示的文本
     sidebarMenuLabel: "菜单",
@@ -28,10 +28,10 @@ module.exports = {
     search: {
       provider: "local",
     },
-    // editLink: {
-    //   pattern: "https://github.com/justcho/blog/blob/main/:path",
-    //   text: "在GitHub上编辑此页",
-    // },
+    editLink: {
+      pattern: "https://github.com/justcho/blog/blob/main/docs/:path",
+      text: "在GitHub上编辑此页",
+    },
     sidebar,
     // footer: {
     //   copyright: "Copyright©2023 JustCho. All rights reserved.",
