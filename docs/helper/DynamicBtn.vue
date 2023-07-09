@@ -1,0 +1,170 @@
+<template>
+  <Title :nameVal="name" />
+  <div class="dynamic">
+    <div class="card" v-for="i in list" @click="toggle(i.url)">
+      <div class="card-content" :style="{ backgroundImage: `url(${i.image})` }">
+        <div class="card-content-items">
+          <span class="card-title">{{ i.title }}</span>
+          <span class="card-desc">{{ i.des }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script lang="ts" setup>
+import { ref } from "vue";
+import Title from "./Title.vue";
+const name = ref("开源项目");
+
+const list = ref([
+  {
+    title: "Just Devise",
+    des: "使用Vue3、TypeScript",
+    image: "/images/xm_1.jpg",
+    url: "",
+  },
+  {
+    title: "记账-Vue",
+    des: "使用Vue2、TypeScript",
+    image: "/images/xm_2.jpg",
+    url: "https://justcho.gitee.io/money-website/#/money",
+  },
+  {
+    title: "记账-React",
+    des: "使用React、TypeScript",
+    image: "/images/xm_3.jpg",
+    url: "https://justcho.github.io/money-react-1/index.html#/money",
+  },
+  {
+    title: "图床",
+    des: "使用React、JavaScript",
+    image: "/images/xm_4.jpg",
+    url: "",
+  },
+  {
+    title: "简易画板",
+    des: "使用CSS、JavaScript",
+    image: "/images/xm_5.jpg",
+    url: "https://justcho.gitee.io/canvas-draw/src/index.html",
+  },
+]);
+
+const toggle = (e: string) => {
+  if (e.length !== 0) {
+    window.open(e);
+  } else {
+    alert("敬请期待...");
+  }
+};
+</script>
+<style lang="scss" scoped>
+$blue: rgb(66, 165, 245);
+
+.dynamic {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 1em;
+
+  flex-wrap: wrap;
+  .card {
+    height: 28vw;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(black, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    &:hover {
+      flex: 2;
+      transition: flex 250ms;
+      .card-content {
+        filter: grayscale(5%);
+        .card-content-items {
+          background: rgba(black, 0.4);
+          transform: scale(1.25);
+          color: #fff;
+        }
+      }
+    }
+    &:not(:hover) {
+      flex: 1;
+      transition: flex 250ms;
+    }
+    .card-content {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      height: 100%;
+      width: 100%;
+      filter: grayscale(100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card-content-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #a0a0a0;
+        width: 100%;
+        height: 100%;
+        .card-title {
+          font-size: 2vw;
+        }
+
+        .card-desc {
+          padding-top: 15px;
+          font-size: 1.2vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .dynamic {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 4.65vw;
+    .card {
+      width: 100%;
+      height: 35vh !important;
+      &:hover {
+        flex: none;
+        transition: none;
+        .card-content {
+          filter: none;
+          .card-content-items {
+            transform: none;
+          }
+        }
+      }
+      &:not(:hover) {
+        flex: none;
+        transition: none;
+      }
+      .card-content {
+        filter: grayscale(5%);
+
+        .card-content-items {
+          background: rgba(black, 0.4);
+          color: #fff;
+
+          .card-title {
+            font-size: 10vw;
+          }
+
+          .card-desc {
+            padding-top: 35px;
+            font-size: 6vw;
+          }
+        }
+      }
+    }
+  }
+}
+</style>

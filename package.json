@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "sass": "^1.63.6",
+    "vitepress": "^1.0.0-beta.3"
+  },
+  "name": "justcho",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs --host",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "vue": "^3.2.36"
+  }
+}
