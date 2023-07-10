@@ -36,34 +36,22 @@ const name1 = ref("日常篇");
 
 const list1 = ref([
   {
-    title: "Mana",
-    des: "Lovely around",
+    title: "积累",
+    des: "开发积累",
     image: "/images/dog.svg",
-    url: "",
+    url: "/notes/personal/Personal",
   },
   {
-    title: "Mana",
-    des: "Lovely around",
+    title: "骚操作",
+    des: "奇怪的知识增加了",
     image: "/images/dog.svg",
-    url: "",
+    url: "/notes/surprising/Surprising",
   },
   {
-    title: "Mana",
-    des: "Lovely around",
+    title: "工具",
+    des: "日常使用",
     image: "/images/dog.svg",
-    url: "",
-  },
-  {
-    title: "Mana",
-    des: "Lovely around",
-    image: "/images/dog.svg",
-    url: "",
-  },
-  {
-    title: "Mana",
-    des: "Lovely around",
-    image: "/images/dog.svg",
-    url: "",
+    url: "/notes/utils/Util",
   },
 ]);
 
@@ -74,26 +62,26 @@ const baseList = ref([
     title: "JavaScript",
     des: "JavaScript",
     image: "/images/JavaScript.svg",
-    url: "",
+    url: "/notes/javascript/JS",
   },
   {
-    title: "HTML5",
-    des: "HTML5",
+    title: "HTML",
+    des: "HTML",
     image: "/images/HTML.svg",
-    url: "",
+    url: "/notes/html/HTML",
   },
   {
-    title: "CSS3",
+    title: "CSS",
     des: "控制样式和布局",
     image: "/images/CSS.svg",
-    url: "",
+    url: "/notes/css/CSS",
   },
 
   {
     title: "NodeJS",
     des: "服务器端运行",
     image: "/images/nodejs.svg",
-    url: "",
+    url: "/notes/nodejs/NODEJS",
   },
 ]);
 const frame = ref("框架篇");
@@ -103,19 +91,19 @@ const frameList = ref([
     title: "Vue 3",
     des: "渐进式 JavaScript 框架",
     image: "/images/vue3.png",
-    url: "/notes/vue3/前言",
+    url: "/notes/vue3/VUE3",
   },
   {
     title: "Vue",
     des: "Vue 2",
     image: "/images/vue2.png",
-    url: "/notes/vue/前言",
+    url: "/notes/vue/VUE",
   },
   {
     title: "React",
     des: "JavaScript 库",
     image: "/images/react.svg",
-    url: "/notes/react/前言",
+    url: "/notes/react/REACT",
   },
 ]);
 const props = defineProps<{

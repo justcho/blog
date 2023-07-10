@@ -1,6 +1,6 @@
 ---
 layout: doc
 ---
-# 前言
+# React
 
   记录学习`React`的文档
