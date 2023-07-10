@@ -11,7 +11,7 @@ yarn build
 cd docs/.vitepress/dist
 
 # 如果是发布到自定义域名
-echo 'justcho.life' >CNAME
+# echo 'justcho.life' >CNAME
 
 git init
 git add -A
