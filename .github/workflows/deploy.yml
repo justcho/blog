@@ -23,5 +23,13 @@ jobs:
 
       - run: yarn --frozen-lockfile
 
-      - name: Run shell
-        run: bash deploy.sh
+      - name: Build
+        run: yarn build
+
+     - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+        FOLDER: docs/.vitepress/dist
+        BRANCH: gh-pages
+
+
