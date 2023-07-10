@@ -6,10 +6,11 @@ on:
       - main
 
 jobs:
-  build:
+  my_first_job:
+    name: build-and-deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses:
           actions/checkout@v3
 
