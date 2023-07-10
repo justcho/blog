@@ -29,10 +29,10 @@ const props = defineProps<{
 }>();
 
 const toggle = (e) => {
-  if(e.length !== 0){
-    window.location.href = e;
-  }else{
-    alert('敬请期待...')
+  if (e.length !== 0) {
+    window.open(e);
+  } else {
+    alert("敬请期待...");
   }
 };
 </script>

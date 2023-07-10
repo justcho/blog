@@ -36,8 +36,8 @@ const name1 = ref("日常篇");
 
 const list1 = ref([
   {
-    title: "积累",
-    des: "开发积累",
+    title: "回顾",
+    des: "笔记",
     image: "/images/dog.svg",
     url: "/notes/personal/Personal",
   },
