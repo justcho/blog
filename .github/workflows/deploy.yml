@@ -1,14 +1,27 @@
 name: my work
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses:
+          actions/checkout@v3
+
+          # 安装 Node 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          # 选择要使用的 node 版本
+          node-version: "16"
+
+      - run: yarn --frozen-lockfile
 
       - name: Run shell
-        run:  bash deploy.sh
+        run: bash deploy.sh
