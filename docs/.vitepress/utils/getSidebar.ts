@@ -131,126 +131,146 @@ export const sidebar = {
   ],
   "/notes/javascript/": [
     {
-      text: "Javascript数据类型-原始类型和两特殊值",
-      link: "./Javascript数据类型-原始类型和两特殊值",
-    },
-    {
-      text: "Javascript数据类型-Object",
-      link: "./Javascript数据类型-Object",
-    },
-    {
-      text: "Javascript数据类型-数组",
-      link: "./Javascript数据类型-数组",
-    },
-    {
-      text: "Javascript数据类型-函数",
-      link: "./Javascript数据类型-函数",
-    },
-    {
-      text: "Javascript运算符",
-      link: "./Javascript运算符",
-    },
-    {
-      text: "DOM 事件机制&事件委托",
-      link: "./DOM 事件机制&事件委托",
-    },
-    {
-      text: "JS 的继承",
-      link: "./JS 的继承",
-    },
-    {
-      text: "我眼中的闭包",
-      link: "./我眼中的闭包",
-    },
-    {
-      text: "Promise",
-      link: "./Promise",
-    },
-    {
-      text: "函数的防抖跟节流",
-      link: "./函数的防抖跟节流",
-    },
-    {
-      text: "ES6 语法",
-      link: "./ES6 语法",
-    },
-    {
-      text: "call、apply、bind 的用法",
-      link: "./call、apply、bind 的用法",
-    },
-    {
-      text: "jQuery",
-      link: "./jQuery",
-    },
-    {
-      text: "跨域",
-      link: "./跨域",
+      text: "JavaScript",
+      items: [
+        {
+          text: "Javascript数据类型-原始类型和两特殊值",
+          link: "./Javascript数据类型-原始类型和两特殊值",
+        },
+        {
+          text: "Javascript数据类型-Object",
+          link: "./Javascript数据类型-Object",
+        },
+        {
+          text: "Javascript数据类型-数组",
+          link: "./Javascript数据类型-数组",
+        },
+        {
+          text: "Javascript数据类型-函数",
+          link: "./Javascript数据类型-函数",
+        },
+        {
+          text: "Javascript运算符",
+          link: "./Javascript运算符",
+        },
+        {
+          text: "DOM 事件机制&事件委托",
+          link: "./DOM 事件机制&事件委托",
+        },
+        {
+          text: "JS 的继承",
+          link: "./JS 的继承",
+        },
+        {
+          text: "我眼中的闭包",
+          link: "./我眼中的闭包",
+        },
+        {
+          text: "Promise",
+          link: "./Promise",
+        },
+        {
+          text: "函数的防抖跟节流",
+          link: "./函数的防抖跟节流",
+        },
+        {
+          text: "ES6 语法",
+          link: "./ES6 语法",
+        },
+        {
+          text: "call、apply、bind 的用法",
+          link: "./call、apply、bind 的用法",
+        },
+        {
+          text: "jQuery",
+          link: "./jQuery",
+        },
+        {
+          text: "跨域",
+          link: "./跨域",
+        },
+      ],
     },
   ],
   "/notes/utils/": [
     {
-      text: "前端开发规范",
-      link: "./前端开发规范",
-    },
-    {
-      text: "git 提交备注规范",
-      link: "./Git提交备注规范",
-    },
-    {
-      text: "常用 Git 命令清单",
-      link: "./常用 Git 命令清单",
-    },
-    {
-      text: "终端命令行",
-      link: "./终端命令行",
-    },
-    {
-      text: "VSCode : Keyboard shortcuts for Windows",
-      link: "./VSCode Keyboard shortcuts for Windows",
-    },
-    {
-      text: "Axios 速查表",
-      link: "./Axios 速查表",
-    },
-    {
-      text: "pnpm的安装与使用",
-      link: "./pnpm的安装与使用",
-    },
-    {
-      text: "echarts 配置项",
-      link: "./echarts 配置项",
-    },
-    {
-      text: "three.js 常用api",
-      link: "./three.js 常用api",
+      text: "工具",
+      items: [
+        {
+          text: "前端开发规范",
+          link: "./前端开发规范",
+        },
+        {
+          text: "git 提交备注规范",
+          link: "./Git提交备注规范",
+        },
+        {
+          text: "常用 Git 命令清单",
+          link: "./常用 Git 命令清单",
+        },
+        {
+          text: "终端命令行",
+          link: "./终端命令行",
+        },
+        {
+          text: "VSCode : Keyboard shortcuts for Windows",
+          link: "./VSCode Keyboard shortcuts for Windows",
+        },
+        {
+          text: "Axios 速查表",
+          link: "./Axios 速查表",
+        },
+        {
+          text: "pnpm的安装与使用",
+          link: "./pnpm的安装与使用",
+        },
+        {
+          text: "echarts 配置项",
+          link: "./echarts 配置项",
+        },
+        {
+          text: "three.js 常用api",
+          link: "./three.js 常用api",
+        },
+      ],
     },
   ],
   "/notes/surprising/": [
     {
-      text: "浅析 MVC",
-      link: "./浅析 MVC",
-    },
-    {
-      text: "表驱动编程",
-      link: "./表驱动编程",
-    },
-    {
-      text: "SVG的引入历程",
-      link: "./SVG的引入历程",
-    },
-    {
-      text: "新东西",
-      link: "./新东西",
+      text: "骚操作",
+      items: [
+        {
+          text: "浅析 MVC",
+          link: "./浅析 MVC",
+        },
+        {
+          text: "表驱动编程",
+          link: "./表驱动编程",
+        },
+        {
+          text: "SVG的引入历程",
+          link: "./SVG的引入历程",
+        },
+        {
+          text: "新东西",
+          link: "./新东西",
+        },
+      ],
     },
   ],
   "/notes/personal/": [
     {
-      text: "自己封装的axios",
-      link: "./自己封装的axios",
-    },
-    {
-      text: "base64转blob",
-      link: "./base64转blob",
+      text: "回顾",
+      items: [
+        {
+          text: "自己封装的axios",
+          link: "./自己封装的axios",
+        },
+        {
+          text: "base64转blob",
+          link: "./base64转blob",
+        },
+      ],
     },
   ],
 };
