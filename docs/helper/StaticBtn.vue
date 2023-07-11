@@ -9,8 +9,10 @@
     >
       <div class="card-content">
         <div class="card-content-items">
-          <span class="card-title">{{ i.title }}</span>
-          <span class="card-desc">{{ i.des }}</span>
+          <span class="card-title" :class="{ font: fontStyle }">{{
+            i.title
+          }}</span>
+          <span class="card-desc" :class="{ font: fontStyle }">{{ i.des }}</span>
         </div>
       </div>
     </div>
@@ -26,6 +28,7 @@ const props = defineProps<{
     image: string;
     url: string;
   }>;
+  fontStyle?: boolean;
 }>();
 
 const toggle = (e) => {
@@ -90,13 +93,13 @@ $blue: rgb(66, 165, 245);
         .card-title {
           color: #fff;
           font-size: 1.5em;
+        }
+        .font {
           font-family: "just";
         }
-
         .card-desc {
           color: $blue;
           font-size: 0.9em;
-          // font-family: "just";
         }
       }
     }

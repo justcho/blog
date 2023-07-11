@@ -9,14 +9,14 @@
       </div>
       <Tags />
       <div class="container-margin">
-        <StaticBtn :title="name1" :cardList="list1" />
+        <StaticBtn :title="name1" :cardList="list1" fontStyle />
       </div>
 
       <div class="container-margin">
-        <StaticBtn :title="base" :cardList="baseList" />
+        <StaticBtn :title="base" :cardList="baseList" fontStyle />
       </div>
       <div class="container-margin">
-        <StaticBtn :title="frame" :cardList="frameList" />
+        <StaticBtn :title="frame" :cardList="frameList" fontStyle />
       </div>
 
       <div class="container-margin">
@@ -132,6 +132,7 @@ const toggle = () => {
       align-items: center;
       width: 100%;
       display: flex;
+
       .container-time-item {
         background-color: rgba(white, 0.1);
         border: 1px solid rgba(white, 0.1);
@@ -144,6 +145,7 @@ const toggle = () => {
         > i {
           color: #fff;
           font-size: 1.25em;
+          font-family: "just";
         }
         &:hover {
           background-color: rgba(white, 0.2);

@@ -111,6 +111,8 @@ $blue: rgb(66, 165, 245);
         color: #a0a0a0;
         width: 100%;
         height: 100%;
+        font-family: "just";
+
         .card-title {
           font-size: 2vw;
         }

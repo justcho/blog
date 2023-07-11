@@ -18,6 +18,8 @@ const list = ref(["日常", "学习", "笔记", "分享"]);
     cursor: not-allowed;
     outline: none;
     padding: 2px 20px;
+    font-family: "just";
+
     &:nth-child(even) {
       margin: 0 10px;
     } //奇数行

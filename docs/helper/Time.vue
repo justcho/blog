@@ -31,6 +31,7 @@ onBeforeUnmount(() => {
   color: #fff;
   font-size: 10em;
   text-shadow: 2px 2px 2px rgba(black, 0.1);
+  
 }
 .startTime {
   font-size: 6em;
