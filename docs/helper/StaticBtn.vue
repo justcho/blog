@@ -95,7 +95,7 @@ $blue: rgb(66, 165, 245);
           font-size: 1.5em;
         }
         .font {
-          font-family: "just";
+          // font-family: "just";
         }
         .card-desc {
           color: $blue;

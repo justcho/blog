@@ -145,7 +145,7 @@ const toggle = () => {
         > i {
           color: #fff;
           font-size: 1.25em;
-          font-family: "just";
+          // font-family: "just";
         }
         &:hover {
           background-color: rgba(white, 0.2);
