@@ -24,13 +24,13 @@ const list = ref([
     url: "",
   },
   {
-    title: "记账-Vue",
-    des: "使用Vue2、TypeScript",
+    title: "记账-Vue版",
+    des: "使用Vue、TypeScript",
     image: "/images/xm_2.jpg",
     url: "https://justcho.gitee.io/money-website/#/money",
   },
   {
-    title: "记账-React",
+    title: "记账-React版",
     des: "使用React、TypeScript",
     image: "/images/xm_3.jpg",
     url: "https://justcho.github.io/money-react-1/index.html#/money",

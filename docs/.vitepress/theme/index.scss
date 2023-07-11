@@ -12,7 +12,7 @@ a {
   color: inherit;
   &:hover {
     // text-decoration: underline;
-    // cursor: pointer;
+    cursor: pointer;
   }
 }
 h1,
@@ -41,4 +41,20 @@ body {
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+
+/* 不显示prev/next */
+.prev-next {
+	display: none !important;
+}
+
+@font-face {
+	font-family: "just";
+	src: url("/font/dear.otf");
+}
+
+.VPNavBarTitle,
+.VPHero .name span,
+.VPHero .text {
+	font-family: "just";
 }

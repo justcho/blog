@@ -7,11 +7,10 @@
 </template>
 <script lang="ts" setup>
 import { ref } from "vue";
-const list = ref(["日常", "学习", "笔记","分享"]);
+const list = ref(["日常", "学习", "笔记", "分享"]);
 </script>
 <style lang="scss" scoped>
 .tags {
-  margin-top: 35px;
   .tags-item {
     background-color: rgba(white, 0.1);
     border: 1px solid rgba(white, 0.1);
@@ -31,7 +30,7 @@ const list = ref(["日常", "学习", "笔记","分享"]);
 
 @media (max-width: 600px) {
   .tags {
-    margin-top: 20px !important;
+    // margin-top: 20px !important;
     .tags-item {
       padding: 0 10px !important;
       &:nth-child(even) {

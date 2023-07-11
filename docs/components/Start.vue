@@ -36,20 +36,20 @@ const name1 = ref("日常篇");
 
 const list1 = ref([
   {
-    title: "回顾",
+    title: "Review",
     des: "笔记",
     image: "/images/dog.svg",
     url: "/notes/personal/Personal",
   },
   {
-    title: "骚操作",
-    des: "奇怪的知识增加了",
+    title: "Explore",
+    des: "骚操作",
     image: "/images/dog.svg",
     url: "/notes/surprising/Surprising",
   },
   {
-    title: "工具",
-    des: "日常使用",
+    title: "Instructions",
+    des: "工具",
     image: "/images/dog.svg",
     url: "/notes/utils/Util",
   },
@@ -60,26 +60,26 @@ const base = ref("基础篇");
 const baseList = ref([
   {
     title: "JavaScript",
-    des: "JavaScript",
+    des: "即时编译型编程语言",
     image: "/images/JavaScript.svg",
     url: "/notes/javascript/JS",
   },
   {
     title: "HTML",
-    des: "HTML",
+    des: "超文本标记语言",
     image: "/images/HTML.svg",
     url: "/notes/html/HTML",
   },
   {
     title: "CSS",
-    des: "控制样式和布局",
+    des: "层叠样式表",
     image: "/images/CSS.svg",
     url: "/notes/css/CSS",
   },
 
   {
     title: "NodeJS",
-    des: "服务器端运行",
+    des: "开源的、跨平台的运行时环境",
     image: "/images/nodejs.svg",
     url: "/notes/nodejs/NODEJS",
   },
@@ -89,19 +89,19 @@ const frame = ref("框架篇");
 const frameList = ref([
   {
     title: "Vue 3",
-    des: "渐进式 JavaScript 框架",
+    des: "渐进式 JavaScript 框架3.0",
     image: "/images/vue3.png",
     url: "/notes/vue3/VUE3",
   },
   {
     title: "Vue",
-    des: "Vue 2",
+    des: "渐进式 JavaScript 框架2.0",
     image: "/images/vue2.png",
     url: "/notes/vue/VUE",
   },
   {
     title: "React",
-    des: "JavaScript 库",
+    des: "用于构建用户界面的库",
     image: "/images/react.svg",
     url: "/notes/react/REACT",
   },
@@ -125,7 +125,7 @@ const toggle = () => {
   min-height: 92vh;
 
   .container {
-    padding: 20vh 8vw 4vh 8vw;
+    padding: 15vh 8vw 4vh 8vw;
     animation: slideIn 750ms;
     .container-time {
       justify-content: space-between;

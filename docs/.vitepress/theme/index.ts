@@ -2,6 +2,7 @@
 import { h } from "vue";
 import Theme from "vitepress/theme";
 import comment from "./components/comment.vue";
+import "./index.scss";
 export default {
   ...Theme,
   Layout: () => {

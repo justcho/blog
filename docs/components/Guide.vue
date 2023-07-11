@@ -29,7 +29,7 @@ const toggle = () => {
 $yellow: rgb(253, 216, 53);
 
 .info {
-  top: 40vh;
+  top: 27vh;
   width: 100%;
   position: absolute;
   justify-content: center;
@@ -115,9 +115,9 @@ $yellow: rgb(253, 216, 53);
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .info {
-    top: 20vh;
+    top: 13vh;
     .time {
       font-size: 6em;
     }

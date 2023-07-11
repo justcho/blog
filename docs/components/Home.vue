@@ -64,7 +64,7 @@ $backgroundImage: "/wallpaper.jpg";
 .start {
   animation: auto-scale 750ms;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .wrapper {
     background-position: center center;
     background-size: cover;

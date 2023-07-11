@@ -115,6 +115,10 @@ export const sidebar = {
           text: "垂直居中的七种方法",
           link: "./垂直居中的七种方法",
         },
+        {
+          text: "小知识",
+          link: "./小知识",
+        },
       ],
     },
   ],

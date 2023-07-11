@@ -90,11 +90,13 @@ $blue: rgb(66, 165, 245);
         .card-title {
           color: #fff;
           font-size: 1.5em;
+          font-family: "just";
         }
 
         .card-desc {
           color: $blue;
           font-size: 0.9em;
+          // font-family: "just";
         }
       }
     }
