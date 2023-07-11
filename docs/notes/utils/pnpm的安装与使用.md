@@ -6,7 +6,7 @@ next: false
 
 ## pnpm使用
 
-### 官网： [https://pnpm.js.org/installation/](https://pnpm.js.org/installation/)
+### 官网： [https://pnpm.io/installation](https://pnpm.io/installation)
 
 ## 全局安装
 
