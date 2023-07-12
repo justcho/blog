@@ -34,7 +34,7 @@ onUpdated(() => {
 </script>
 
 <style lang="scss">
-$backgroundImage: "/wallpaper.jpg";
+$backgroundImage: "https://www.rizige.com/justcho/wallpaper.jpg";
 
 .wrapper {
   min-height: 92vh;
