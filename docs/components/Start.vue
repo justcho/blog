@@ -181,6 +181,12 @@ const toggle = () => {
   }
 }
 @media (max-width: 600px) {
+  .start-wrapper {
+    &::-webkit-scrollbar {
+      height: 0px;
+      width: 0px;
+    }
+  }
   .container-time-item {
     width: 60px !important;
     padding: 4px !important;
@@ -206,7 +212,7 @@ const toggle = () => {
     opacity: 1;
   }
   100% {
-    transform: translateY(-2%);
+    transform: translateY(2%);
     opacity: 0;
   }
 }
