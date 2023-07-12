@@ -37,7 +37,7 @@ onUpdated(() => {
 $backgroundImage: "https://www.rizige.com/justcho/wallpaper.jpg";
 
 .wrapper {
-  min-height: 92vh;
+  height: 92vh;
   width: 100%;
   background: url($backgroundImage) no-repeat;
   background-size: 100% 100%;

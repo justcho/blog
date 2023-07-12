@@ -37,7 +37,7 @@ $yellow: rgb(253, 216, 53);
   opacity: 0;
 }
 .control {
-  animation: fade-in 1s linear;
+  animation: fade-in 750ms linear;
   opacity: 1;
 }
 .login {
@@ -59,7 +59,6 @@ $yellow: rgb(253, 216, 53);
     > i {
       color: #fff;
       font-size: 1.25em;
-      // font-family: "just";
     }
     &:hover {
       background-color: rgba(white, 0.2);

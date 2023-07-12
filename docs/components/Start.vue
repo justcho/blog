@@ -1,6 +1,6 @@
 <template>
   <div class="start-wrapper">
-    <main class="container">
+    <main class="container" :class="{ out: go }">
       <div class="container-time">
         <Time :pageValue="currentValue" />
         <button class="container-time-item" @click="toggle">
@@ -113,17 +113,36 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: "update:currentValue", currentValue: "guide" | "loading" | "start"): void;
 }>();
+const go = ref(false);
 
 const toggle = () => {
-  emit("update:currentValue", "guide");
+  go.value = true;
+  setTimeout(() => {
+    emit("update:currentValue", "guide");
+  }, 700);
 };
 </script>
 <style lang="scss" scoped>
 .start-wrapper {
   background: linear-gradient(to top, rgba(black, 0.8), transparent);
   width: 100%;
-  min-height: 92vh;
+  height: 92vh;
+  &::-webkit-scrollbar-track {
+    background-color: gray(30);
+  }
 
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(white, 0.2);
+    border-radius: 100px;
+  }
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  overflow-y: scroll;
+  .out {
+    animation: slideOut 750ms !important;
+  }
   .container {
     padding: 15vh 8vw 4vh 8vw;
     animation: slideIn 750ms;
@@ -142,6 +161,8 @@ const toggle = () => {
         outline: none;
         padding: 8px;
         width: 100px;
+        -webkit-tap-highlight-color: transparent;
+        -moz-tap-highlight-color: transparent;
         > i {
           color: #fff;
           font-size: 1.25em;
@@ -176,6 +197,17 @@ const toggle = () => {
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideOut {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-2%);
+    opacity: 0;
   }
 }
 </style>
