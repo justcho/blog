@@ -17,7 +17,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     smoothScroll: true, // 启动页面丝滑滚动
-    outline: [2, 4], // 识别<h2>-<h4>的标题
+    outline: [2, 3], // 识别<h2>-<h4>的标题
     outlineTitle: "本页目录", // aside第一行显示的文本
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "回到顶部",
