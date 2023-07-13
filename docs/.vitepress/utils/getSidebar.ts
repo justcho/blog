@@ -119,6 +119,10 @@ export const sidebar = {
           text: "小知识",
           link: "./小知识",
         },
+        {
+          text: "旋转动画",
+          link: "./旋转动画",
+        },
       ],
     },
   ],
@@ -192,6 +196,10 @@ export const sidebar = {
         {
           text: "跨域",
           link: "./跨域",
+        },
+        {
+          text: "常见的this指向的问题",
+          link: "./常见的this指向的问题",
         },
       ],
     },
@@ -267,12 +275,69 @@ export const sidebar = {
       text: "回顾",
       items: [
         {
+          text: "number相关",
+          link: "./number相关",
+        },
+        {
+          text: "string相关",
+          link: "./string相关",
+        },
+        {
+          text: "object相关",
+          link: "./object相关",
+        },
+        {
+          text: "array相关",
+          link: "./array相关",
+        },
+
+        {
+          text: "大屏相关",
+          link: "./大屏相关",
+        },
+        {
+          text: "常用的数组方法",
+          link: "./常用的数组方法",
+        },
+        {
+          text: "数组去重",
+          link: "./数组去重",
+        },
+        {
+          text: "平时积累",
+          link: "./小tips",
+        },
+        {
+          text: "聚合扫码",
+          link: "./聚合扫码",
+        },
+        {
           text: "自己封装的axios",
           link: "./自己封装的axios",
         },
         {
-          text: "base64转blob",
-          link: "./base64转blob",
+          text: "uni.request封装",
+          link: "./uni.request封装",
+        },
+        {
+          text: "高德定位封装",
+          link: "./高德定位封装",
+        },
+        {
+          text: "日历组件封装",
+          link: "./日历组件封装",
+        },
+        {
+          text: "html2canvas使用",
+          link: "./html2canvas",
+        },
+        {
+          text: "页面表格转换word",
+          link: "./页面表格转换word",
+        },
+        {
+          text: "html2canvas + jspdf",
+          link: "./html2canvas + jspdf",
         },
       ],
     },
