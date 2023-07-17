@@ -21,7 +21,7 @@ const list = ref([
     title: "Just Devise",
     des: "使用Vue3、TypeScript",
     image: "https://rizige.com/justcho/images/xm_1.jpg",
-    url: "",
+    url: "https://justcho.github.io/justd/",
   },
   {
     title: "记账-Vue版",

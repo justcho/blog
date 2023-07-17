@@ -43,10 +43,11 @@ body {
   overflow: hidden;
 }
 
-/* 不显示prev/next */
+/* 不显示上下页 */
 .prev-next {
 	display: none !important;
 }
+
 @font-face {
 	font-family: "just";
 	src: url("/font/MaShanZheng-Regular.ttf");
@@ -57,4 +58,12 @@ body {
 .VPHero .name span,
 .VPHero .text {
 	font-family: "just";
+}
+
+.VPSidebar .items p {
+	display: inline-block;
+	width: calc(var(--vp-sidebar-width) - 100px);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
