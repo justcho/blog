@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # Vue的Options
 
 ## el：挂载点

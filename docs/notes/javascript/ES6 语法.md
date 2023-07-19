@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # ES6 语法
 
 ## 作用域

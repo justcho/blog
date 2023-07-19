@@ -1,14 +1,9 @@
----
-prev: false
-next: false
----
+
 # React Class组件详解
 
 ## 两种方式创建Class组件
 
 ### ES5方式（过时仅作了解）
-
----
 
 ```jsx
 import React from 'react'
@@ -24,8 +19,6 @@ export default A
 ```
 
 ### ES6方式（主要用这个）
-
----
 
 ```jsx
 import React from 'react';
@@ -48,8 +41,6 @@ export default B;
 
 ### 初始化
 
----
-
 ```jsx
 class B extends React.Component{
  constructor(props){
@@ -62,25 +53,17 @@ class B extends React.Component{
 
 ### 效果
 
----
-
 - 这么做了之后， `this.props` 就是外部数据对象的地址了
 
 ### 读
-
----
 
 - 通过 `this.props.xxx`  来读
 
 ### 写
 
----
-
 - 外部数据应该由外部数据来更新
 
 ### 相关钩子(已经被弃用了，不要用 ，了解）
-
----
 
 - componentWillReceiveProps
 - 当组件接受新的props时会触发此钩子
@@ -88,16 +71,12 @@ class B extends React.Component{
 
 ### Props的作用
 
----
-
 接受外部数据：只能读不能写；外部数据由父组件传递
 接受外部函数：在恰当的时机，调用该函数；该函数一般是父组件的函数
 
 ## State & setState 内部数据
 
 ### 初始化 State
-
----
 
 ```jsx
 class B extends React.Compoment{
@@ -113,8 +92,6 @@ class B extends React.Compoment{
 ```
 
 ### 读写 State
-
----
 
 #### 读用 `this.state`
 
@@ -143,8 +120,6 @@ setState 会自动将新 state 与旧 state 进行一级合并，可以用 `...t
 
 ### 函数列表
 
----
-
 - constructor() - 在这里初始化 state
 - shouldComponentUpdate() - return false 阻止更新
 - render() - 创建虚拟 DOM
@@ -153,8 +128,6 @@ setState 会自动将新 state 与旧 state 进行一级合并，可以用 `...t
 - componentWillUnmount() - 组件将死
 
 ### constructor
-
----
 
 #### 用途
 
@@ -176,8 +149,6 @@ constructor 如果只初始化 props可不写 如果要初始化 state 就必须
 
 ### shouldComponentUpdate
 
----
-
 #### 用途
 
 返回 true 表示不阻止 UI 更新
@@ -185,15 +156,11 @@ constructor 如果只初始化 props可不写 如果要初始化 state 就必须
 
 ### 启发
 
----
-
 其实可以将 newState 和 this.state 的每个属性都对比一下 如果全都相等，就不更新
 如果有一个不等，就更新（对比的时候只对比一层 ，浅对比）
 React 内置了这个功能 叫做 `React.PureComponent` 可以代替 `React.Component`
 
 ### render
-
----
 
 #### 用途
 
@@ -214,8 +181,6 @@ React 内置了这个功能 叫做 `React.PureComponent` 可以代替 `React.Co
 
 ### componentDidMount()
 
----
-
 #### 用途
 
 - 在元素插入页面后执行代码，这代码依赖DOM(在元素出现后才能执行的操作)
@@ -228,8 +193,6 @@ React 内置了这个功能 叫做 `React.PureComponent` 可以代替 `React.Co
 看文档
 
 ### componentDidUpdate()
-
----
 
 #### 用途
 
@@ -245,8 +208,6 @@ React 内置了这个功能 叫做 `React.PureComponent` 可以代替 `React.Co
 
 ### componentWillUnmount
 
----
-
 #### 用途
 
 组件将要被移出页面然后被销毁时执行代码
@@ -258,8 +219,6 @@ unmount 过的组件不会再次 mount
 原则：谁污染谁治理
 
 ### 分阶段看钩子执行顺序
-
----
 
 ![image.png](./class-img.png)
 

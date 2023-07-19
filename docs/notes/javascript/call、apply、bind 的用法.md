@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # call、apply、bind 的用法
 
 ## 例1

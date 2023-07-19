@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # pnpm的安装与使用
 
 ## pnpm使用

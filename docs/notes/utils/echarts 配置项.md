@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # echarts 配置项
 ```
 option = {

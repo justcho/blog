@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # 浅析 MVC
 
 ## MVC（Model–View–Controller）

@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # css 动画
 
 ## transform（允许你旋转，缩放，倾斜或平移给定元素）

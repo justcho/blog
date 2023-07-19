@@ -1,13 +1,10 @@
----
-prev: false
-next: false
----
+
 
 # React 入门
 
 ### CDN引入react(仅作为了解)
 
----
+
 
 #### CDN引入
 
@@ -21,7 +18,7 @@ next: false
 
 ### 通过 webpack 引入React(需要配置webpack)
 
----
+
 
 #### import...from
 
@@ -35,7 +32,7 @@ next: false
 
 ### 选择
 
----
+
 
 - 新手用 create-react-app
 - 老手用 webpack 和rollup
@@ -44,14 +41,14 @@ next: false
 
 ### 对比普通代码与函数
 
----
+
 
 - 普通代码立即求值
 - 函数等调用时候再求值 即延迟求值
 
 ### 对比React元素和函数组件
 
----
+
 
 #### 对比
 
@@ -60,7 +57,7 @@ next: false
 
 ### 目前知道的
 
----
+
 
 #### React元素
 
@@ -77,7 +74,7 @@ next: false
 
 ### 使用方法
 
----
+
 
 #### webpack + babel-loader
 
@@ -93,7 +90,7 @@ next: false
 
 ### 注意事项
 
----
+
 
 #### 注意 className
 

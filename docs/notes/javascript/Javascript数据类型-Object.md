@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # Javascript数据类型-Object
 
 ## 一、定义
@@ -100,7 +97,7 @@ obj.toString() //居然不报错
 
 ### （一）删除属性
 
----
+
 
 1. `delete obj.xxx`或`delete obj['xxx']`：即可删除obj的XXX属性，此时属性值当然也没有了
 
@@ -122,7 +119,7 @@ obj.toString() //居然不报错
 
 ### （二）读属性
 
----
+
 
 #### 1、查看一个对象的所有属性
 
@@ -184,7 +181,7 @@ for (let i = 0; i < list.length; i++) {
 
 ### （三）修改或增加属性
 
----
+
 
 #### 1、自身属性
 
@@ -229,7 +226,7 @@ let obj2 = Object.create(newproto) //现在该对象没有啥自身属性，自�
 
 ### （一） 第一类：函数（对象）
 
----
+
 
 #### 1. 函数的定义方式
 
@@ -294,7 +291,7 @@ let obj2 = Object.create(newproto) //现在该对象没有啥自身属性，自�
 
 ### （三） 第三类：数组对象
 
----
+
 
 #### 1. 定义方式
 
@@ -339,7 +336,7 @@ let obj2 = Object.create(newproto) //现在该对象没有啥自身属性，自�
 
 ### 1、创建一个构造函数的全过程（记得还有notability笔记：构造函数new）
 
----
+
 
 ```javascript
 let Dog = new Function('width','return this.name=name')
@@ -357,13 +354,13 @@ let dog1 = new Dog('小兵')
 
 ### 2、同理
 
----
+
 
 Object函数、Array函数全都如同上面。只不过他们在js创建时已经写好啦。
 
 ### 3、原型的理解`新生对象.__proto__ === 构造函数.prototype`
 
----
+
 
 1. 每个对象出生就有`prototype`属性和`__proto__`隐藏属性。
 
@@ -383,7 +380,7 @@ Object函数、Array函数全都如同上面。只不过他们在js创建时已�
 
 ### 4、Object构造函数
 
----
+
 
 - 构造函数`Object`函数的`prototype`属性指向所有object对象的原型
 
@@ -397,7 +394,7 @@ Object函数、Array函数全都如同上面。只不过他们在js创建时已�
 
 ### 5、Array构造函数
 
----
+
 
 - 构造函数Array函数的`prototype`属性指向所有数组对象的原型
 - 由Array函数构造出来的所有数组对象的`__proto__`属性也指向这个原型
@@ -407,7 +404,7 @@ Object函数、Array函数全都如同上面。只不过他们在js创建时已�
 
 ## 6、`prototype`属性里还有个`constructor`属性，表示构造者是哪个构造函数
 
----
+
 
 ①新生对象的构造者是他的构造函数
 
@@ -423,7 +420,7 @@ Object函数、Array函数全都如同上面。只不过他们在js创建时已�
 
 ### 7、一些问题
 
----
+
 
 1. Object.prototype是所有对象的原型，也是个对象
 2. 那他是由哪个构造函数构造出来的？不知道！
@@ -431,7 +428,7 @@ Object函数、Array函数全都如同上面。只不过他们在js创建时已�
 
 ### 8、原型的具体分析
 
----
+
 
 关于原型请看我知乎的文章：[原型](https://zhuanlan.zhihu.com/p/119528167)
 

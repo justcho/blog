@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # JS 的继承
 
 ## 基于原型的继承

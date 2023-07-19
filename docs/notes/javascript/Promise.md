@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # Promise
 
 ## 用途

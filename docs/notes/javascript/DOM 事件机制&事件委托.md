@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # DOM 事件机制&事件委托
 
 ## 一、事件机制

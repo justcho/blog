@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # 自己封装的axios
 
 ## request.js

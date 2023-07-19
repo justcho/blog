@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # jQuery
 
 ## jQuery 如何获取元素

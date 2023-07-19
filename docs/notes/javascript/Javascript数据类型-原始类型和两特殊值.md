@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # Javascript数据类型-原始类型和两特殊值
 
 ## 一、JS的数据类型
@@ -213,8 +210,6 @@ s[4]// 'o'
 - `''+n`
 
 ### 2、string => number
-
----
 
 - `Number(s)`
 - `parseInt(s)`

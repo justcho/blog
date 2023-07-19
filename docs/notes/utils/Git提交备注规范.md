@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # git 提交备注规范
 
 ```

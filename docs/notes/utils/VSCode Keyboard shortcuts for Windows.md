@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # VSCode : Keyboard shortcuts for Windows
 
 ## 常用模式（General ）

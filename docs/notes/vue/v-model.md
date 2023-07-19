@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # v-model
 
 ## form    做表单一定要用 form+button组合
@@ -103,7 +100,7 @@ next: false
 
 ## v-model
 
----
+
 
 双向绑定
 v-model 可以实现 我绑定一个变量，变量变化的时候UI会变化 用户改变UI的时候数据也会变化

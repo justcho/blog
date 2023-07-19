@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # three.js 常用api
 
 ```javascript

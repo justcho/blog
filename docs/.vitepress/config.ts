@@ -1,5 +1,6 @@
-import { sidebar } from "./utils/getSidebar";
-module.exports = {
+import { getSidebar } from "./utils/getSidebar";
+import { defineConfig } from "vitepress";
+export default defineConfig({
   // 网站标题
   title: "JustCho's Blog",
   // 网站描述
@@ -32,9 +33,10 @@ module.exports = {
       pattern: "https://github.com/justcho/blog/blob/main/docs/:path",
       text: "在GitHub上编辑此页",
     },
-    sidebar,
+    // @ts-ignore
+    sidebar: getSidebar(),
     // footer: {
     //   copyright: "Copyright©2023 JustCho. All rights reserved.",
     // },
   },
-};
+});

@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # router 使用
 
 ## 动态路由匹配

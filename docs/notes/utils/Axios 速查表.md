@@ -1,7 +1,4 @@
----
-prev: false
-next: false
----
+
 # Axios 速查表
 
 [原文链接](https://kapeli.com/cheat_sheets/Axios.docset/Contents/Resources/Documents/index)
