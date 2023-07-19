@@ -21,7 +21,7 @@ const list = ref([
     title: "Just Devise",
     des: "使用Vue3、TypeScript",
     image: "https://rizige.com/justcho/images/xm_1.jpg",
-    url: "https://justcho.github.io/justd/",
+    url: "https://justcho.github.io/just-devise/",
   },
   {
     title: "记账-Vue版",
@@ -39,7 +39,7 @@ const list = ref([
     title: "图床",
     des: "使用React、JavaScript",
     image: "https://rizige.com/justcho/images/xm_4.jpg",
-    url: "",
+    url: "https://justcho.github.io/pic-page/",
   },
   {
     title: "简易画板",
@@ -50,10 +50,11 @@ const list = ref([
 ]);
 
 const toggle = (e: string) => {
-  if (e.length !== 0) {
-    window.open(e);
+  const width = document.documentElement.clientWidth;
+  if (e === "https://justcho.github.io/pic-page/" && width < 700) {
+    window.alert("请使用电脑打开本页面，以保证浏览效果");
   } else {
-    alert("敬请期待...");
+    window.open(e);
   }
 };
 </script>

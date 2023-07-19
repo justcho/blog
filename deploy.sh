@@ -17,6 +17,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:justcho/blog-page.git master:main
+git push -f git@github.com:justcho/blog.git master:page
 
 cd -
