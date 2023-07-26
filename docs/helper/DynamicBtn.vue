@@ -30,17 +30,18 @@ const list = ref([
     url: "https://justcho.gitee.io/money-website/#/money",
   },
   {
-    title: "记账-React版",
-    des: "使用React、TypeScript",
-    image: "https://rizige.com/justcho/images/xm_3.jpg",
-    url: "https://justcho.github.io/money-react-1/index.html#/money",
-  },
-  {
     title: "图床",
     des: "使用React、JavaScript",
     image: "https://rizige.com/justcho/images/xm_4.jpg",
     url: "https://justcho.github.io/pic-page/",
   },
+  {
+    title: "记账-React版",
+    des: "使用React、TypeScript",
+    image: "https://rizige.com/justcho/images/xm_3.jpg",
+    url: "https://justcho.github.io/money-react-1/index.html#/money",
+  },
+
   {
     title: "简易画板",
     des: "使用CSS、JavaScript",
