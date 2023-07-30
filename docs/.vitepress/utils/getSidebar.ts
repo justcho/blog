@@ -126,6 +126,10 @@ export const getSidebar = () => {
             text: "Emmet快捷写html",
             link: "/notes/html/Emmet快捷写html",
           },
+          {
+            text: "HTML 汇总",
+            link: "/notes/html/html汇总",
+          },
         ],
       },
     ],
@@ -152,6 +156,10 @@ export const getSidebar = () => {
           {
             text: "旋转动画",
             link: "/notes/css/旋转动画",
+          },
+          {
+            text: "CSS 汇总",
+            link: "/notes/css/css汇总",
           },
         ],
       },
