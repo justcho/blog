@@ -1,5 +1,5 @@
 
-# Javascript数据类型-Object
+# Object
 
 ## 一、定义
 

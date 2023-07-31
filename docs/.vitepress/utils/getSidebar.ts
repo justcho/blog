@@ -180,19 +180,19 @@ export const getSidebar = () => {
         text: "JavaScript",
         items: [
           {
-            text: "Javascript数据类型-原始类型和两特殊值",
+            text: "原始类型和两特殊值",
             link: "/notes/javascript/Javascript数据类型-原始类型和两特殊值",
           },
           {
-            text: "Javascript数据类型-Object",
+            text: "Object",
             link: "/notes/javascript/Javascript数据类型-Object",
           },
           {
-            text: "Javascript数据类型-数组",
+            text: "数组对象",
             link: "/notes/javascript/Javascript数据类型-数组",
           },
           {
-            text: "Javascript数据类型-函数",
+            text: "函数对象",
             link: "/notes/javascript/Javascript数据类型-函数",
           },
           {
