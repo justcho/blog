@@ -305,6 +305,10 @@ export const getSidebar = () => {
             text: "新东西",
             link: "/notes/surprising/新东西",
           },
+          {
+            text: "Just Devise",
+            link: "/notes/surprising/Just Devise",
+          },
         ],
       },
     ],
