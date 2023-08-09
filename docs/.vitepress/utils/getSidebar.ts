@@ -239,6 +239,10 @@ export const getSidebar = () => {
             text: "常见的this指向的问题",
             link: "/notes/javascript/常见的this指向的问题",
           },
+          {
+            text: "原型链",
+            link: "/notes/javascript/原型链",
+          },
         ],
       },
     ],
