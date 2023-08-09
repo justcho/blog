@@ -243,6 +243,10 @@ export const getSidebar = () => {
             text: "原型链",
             link: "/notes/javascript/原型链",
           },
+          {
+            text: "JS的new做了什么",
+            link: "/notes/javascript/JS的new做了什么",
+          },
         ],
       },
     ],
