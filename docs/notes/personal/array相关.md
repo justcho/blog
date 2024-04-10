@@ -203,3 +203,28 @@ var arr = []
 ```javascript
 (this.cityList || []).findIndex((item) => item.name === this.defaultCityName);
 ```
+## 循环比对数组里面相同的值
+```javascript
+// 假设你有一个字符串数组和一个对象数组
+const stringArray = ["apple", "banana", "cherry"];
+const objectArray = [
+  { id: 1, name: "apple" },
+  { id: 2, name: "banana" },
+  { id: 3, name: "grape" }
+];
+
+// 要添加的新值
+const newValue = "new value";
+
+// 嵌套循环遍历两个数组
+for (const stringValue of stringArray) {
+  for (const obj of objectArray) {
+    if (stringValue === obj.name) {
+      // 如果找到匹配项，则在相同的对象中增加新值
+      obj.newValue = newValue;
+    }
+  }
+}
+
+console.log(objectArray); // 输出包含新值的对象数组
+```

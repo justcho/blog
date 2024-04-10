@@ -325,6 +325,30 @@ export const getSidebar = () => {
         text: "回顾",
         items: [
           {
+            text: "SAS签名Azure上传封装",
+            link: "/notes/personal/SAS签名微软云Azure前端文件上传封装",
+          },
+          {
+            text: "工具函数",
+            link: "/notes/personal/工具函数",
+          },
+          {
+            text: "vue-native-websocket 使用",
+            link: "/notes/personal/vue-native-websocket使用",
+          },
+          {
+            text: "wordClound封装",
+            link: "/notes/personal/wordClound封装",
+          },
+          {
+            text: "TRTC",
+            link: "/notes/personal/TRTC",
+          },
+          {
+            text: "画板封装",
+            link: "/notes/personal/画板封装",
+          },
+          {
             text: "number相关",
             link: "/notes/personal/number相关",
           },
