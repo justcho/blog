@@ -38,20 +38,20 @@ const list1 = ref([
   {
     title: "Review",
     des: "笔记",
-    image: "/images/dog.svg",
-    url: "/notes/personal/Personal",
+    image: "/blog/images/dog.svg",
+    url: "/blog/notes/personal/Personal",
   },
   {
     title: "Explore",
     des: "骚操作",
-    image: "/images/dog.svg",
-    url: "/notes/surprising/Surprising",
+    image: "/blog/images/dog.svg",
+    url: "/blog/notes/surprising/Surprising",
   },
   {
     title: "Instructions",
     des: "工具",
-    image: "/images/dog.svg",
-    url: "/notes/utils/Util",
+    image: "/blog/images/dog.svg",
+    url: "/blog/notes/utils/Util",
   },
 ]);
 
@@ -61,27 +61,27 @@ const baseList = ref([
   {
     title: "JavaScript",
     des: "即时编译型编程语言",
-    image: "/images/JavaScript.svg",
-    url: "/notes/javascript/JS",
+    image: "/blog/images/JavaScript.svg",
+    url: "/blog/notes/javascript/JS",
   },
   {
     title: "HTML",
     des: "超文本标记语言",
-    image: "/images/HTML.svg",
-    url: "/notes/html/HTML",
+    image: "/blog/images/HTML.svg",
+    url: "/blog/notes/html/HTML",
   },
   {
     title: "CSS",
     des: "层叠样式表",
-    image: "/images/CSS.svg",
-    url: "/notes/css/CSS",
+    image: "/blog/images/CSS.svg",
+    url: "/blog/notes/css/CSS",
   },
 
   {
     title: "NodeJS",
     des: "开源的、跨平台的运行时环境",
-    image: "/images/nodejs.svg",
-    url: "/notes/nodejs/NODEJS",
+    image: "/blog/images/nodejs.svg",
+    url: "/blog/notes/nodejs/NODEJS",
   },
 ]);
 const frame = ref("框架篇");
@@ -90,20 +90,20 @@ const frameList = ref([
   {
     title: "Vue 3",
     des: "渐进式 JavaScript 框架3.0",
-    image: "/images/vue3.png",
-    url: "/notes/vue3/VUE3",
+    image: "/blog/images/vue3.png",
+    url: "/blog/notes/vue3/VUE3",
   },
   {
     title: "Vue",
     des: "渐进式 JavaScript 框架2.0",
-    image: "/images/vue2.png",
-    url: "/notes/vue/VUE",
+    image: "/blog/images/vue2.png",
+    url: "/blog/notes/vue/VUE",
   },
   {
     title: "React",
     des: "用于构建用户界面的库",
-    image: "/images/react.svg",
-    url: "/notes/react/REACT",
+    image: "/blog/images/react.svg",
+    url: "/blog/notes/react/REACT",
   },
 ]);
 const props = defineProps<{

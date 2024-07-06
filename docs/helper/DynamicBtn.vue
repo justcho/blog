@@ -20,32 +20,32 @@ const list = ref([
   {
     title: "Just Devise",
     des: "使用Vue3、TypeScript",
-    image: "/images/xm-1.jpg",
+    image: "/blog/images/xm-1.jpg",
     url: "https://justcho.github.io/just-devise/",
   },
   {
     title: "记账-Vue版",
     des: "使用Vue、TypeScript",
-    image: "/images/xm-2.jpg",
+    image: "/blog/images/xm-2.jpg",
     url: "https://justcho.gitee.io/money-website/#/money",
   },
   {
     title: "图床",
     des: "使用React、JavaScript",
-    image: "/images/xm-3.jpg",
+    image: "/blog/images/xm-3.jpg",
     url: "https://justcho.github.io/react-pic/",
   },
   {
     title: "记账-React版",
     des: "使用React、TypeScript",
-    image: "/images/xm-4.jpg",
+    image: "/blog/images/xm-4.jpg",
     url: "https://justcho.github.io/money-react-1/index.html#/money",
   },
 
   {
     title: "简易画板",
     des: "使用CSS、JavaScript",
-    image: "/images/xm-5.jpg",
+    image: "/blog/images/xm-5.jpg",
     url: "https://justcho.gitee.io/canvas-draw/src/index.html",
   },
 ]);
