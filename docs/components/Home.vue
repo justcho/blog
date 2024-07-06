@@ -34,7 +34,7 @@ onUpdated(() => {
 </script>
 
 <style lang="scss">
-$backgroundImage: "/public/images/bg.jpg";
+$backgroundImage: "/images/bg.jpg";
 
 .wrapper {
   height: 92vh;

@@ -6,7 +6,7 @@ export default defineConfig({
   // 网站描述
   description: " ",
   dest: "./dist",
-  base: "/",
+  base: "/index",
   // 头部head
   head: [
     // 添加图标

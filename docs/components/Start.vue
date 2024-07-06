@@ -38,19 +38,19 @@ const list1 = ref([
   {
     title: "Review",
     des: "笔记",
-    image: "/public/images/dog.svg",
+    image: "/images/dog.svg",
     url: "/notes/personal/Personal",
   },
   {
     title: "Explore",
     des: "骚操作",
-    image: "/public/images/dog.svg",
+    image: "/images/dog.svg",
     url: "/notes/surprising/Surprising",
   },
   {
     title: "Instructions",
     des: "工具",
-    image: "/public/images/dog.svg",
+    image: "/images/dog.svg",
     url: "/notes/utils/Util",
   },
 ]);
@@ -61,26 +61,26 @@ const baseList = ref([
   {
     title: "JavaScript",
     des: "即时编译型编程语言",
-    image: "/public/images/JavaScript.svg",
+    image: "/images/JavaScript.svg",
     url: "/notes/javascript/JS",
   },
   {
     title: "HTML",
     des: "超文本标记语言",
-    image: "/public/images/HTML.svg",
+    image: "/images/HTML.svg",
     url: "/notes/html/HTML",
   },
   {
     title: "CSS",
     des: "层叠样式表",
-    image: "/public/images/CSS.svg",
+    image: "/images/CSS.svg",
     url: "/notes/css/CSS",
   },
 
   {
     title: "NodeJS",
     des: "开源的、跨平台的运行时环境",
-    image: "/public/images/nodejs.svg",
+    image: "/images/nodejs.svg",
     url: "/notes/nodejs/NODEJS",
   },
 ]);
@@ -90,19 +90,19 @@ const frameList = ref([
   {
     title: "Vue 3",
     des: "渐进式 JavaScript 框架3.0",
-    image: "/public/images/vue3.png",
+    image: "/images/vue3.png",
     url: "/notes/vue3/VUE3",
   },
   {
     title: "Vue",
     des: "渐进式 JavaScript 框架2.0",
-    image: "/public/images/vue2.png",
+    image: "/images/vue2.png",
     url: "/notes/vue/VUE",
   },
   {
     title: "React",
     des: "用于构建用户界面的库",
-    image: "/public/images/react.svg",
+    image: "/images/react.svg",
     url: "/notes/react/REACT",
   },
 ]);
