@@ -7,7 +7,7 @@ export default {
   ...Theme,
   Layout: () => {
     return h(Theme.Layout, null, {
-      "doc-after": () => h(comment),
+      // "doc-after": () => h(comment),
     });
   },
   // @ts-ignore
